@@ -22,6 +22,7 @@ public class Main {
 
             while ((startIndex <= lastIndex) && (elementToSearch >= integers[startIndex]) &&
                     (elementToSearch <= integers[lastIndex])) {
+                     // Формула интерполяции
                     int pos = startIndex + (((lastIndex-startIndex) /
                         (integers[lastIndex]-integers[startIndex]))*
                         (elementToSearch - integers[startIndex]));
